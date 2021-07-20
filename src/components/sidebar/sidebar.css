@@ -1,0 +1,83 @@
+.sidebar{
+    flex:1;
+    height: calc(100vh + 100px);
+    background-color: #4e73df;
+    position: sticky;
+}
+.sidebarWrapper{
+     padding: 20px;
+     color: white;
+}
+.sidebarMenu{
+    margin-bottom:10px;
+}
+.sidebarTitle{
+    font-size:16px;
+    color:gainsboro;
+}
+.sidebarName{
+    font-size:20px;
+    color:white;
+
+}
+.sidebarEmail{
+    font-size:16px;
+    color:white;
+}
+.Bio{
+    align-items: center;
+
+}
+.sidebarList{
+    list-style: none;
+    padding:5px;
+    text-decoration: none;
+}
+.sidebarListItem{
+    text-decoration: none;
+    color: white;
+    padding:5px;
+    cursor:pointer;
+    display: flex;
+    align-items: center ;
+    border-radius: 10px;
+}
+
+.sidebarListItem.active, .sidebarListItem:hover{
+    background-color: #c3dbf5;
+    color:#4e73df;
+
+}
+.sidebarIcon{
+    
+    margin-right: 5px;
+    /* font-size:20px !important; */
+
+}
+.Logout{
+    margin-top: 20px;
+}
+.logoutIcon{
+    border-radius: 100%;
+    background-color: #3d60c7;
+    padding: 10px;
+    cursor: pointer;
+}
+.logoutIcon:hover{
+    background-color: #c3dbf5;
+    color: #4e73df;
+
+}
+.Avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+    background:  #c3dbf5;
+    color: #4e73df;
+    text-align: center;
+    font-size: 32px;
+  }
+.logoutText{
+    cursor: pointer;
+}

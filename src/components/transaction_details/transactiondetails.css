@@ -1,0 +1,43 @@
+.incomeDetails{
+    flex: 4;
+}
+.detailsTitle{
+    margin-bottom: 25px;
+}
+.incomeStatus{
+    margin: 80px 100px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.75);
+-webkit-box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.75);
+}
+.name{
+   font-weight: bold;
+}
+
+.details{
+    padding:20px;
+}
+.money{
+    color:#1cc88a;
+}
+tr:hover {background-color: #f5f5f5;}
+
+table{
+    width: 100%;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+
+  }
+th{
+    font-size: 18px;
+    color: #4e73df;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+
+  }

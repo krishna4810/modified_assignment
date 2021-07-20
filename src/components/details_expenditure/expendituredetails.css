@@ -1,0 +1,23 @@
+.incomeDetails{
+    flex: 4;
+}
+.detailsTitle{
+    margin-bottom: 25px;
+}
+.incomeStatus{
+    margin: 80px 100px;
+        padding: 20px;
+    box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.75);
+-webkit-box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.75);
+}
+.name{
+   font-weight: bold;
+}
+
+.details{
+    padding:20px;
+}
+
+.expenditure{
+    color: #e74a3b;
+}
