@@ -24,7 +24,7 @@ import Signup from '../signup/Signup'
                 <div className="signin">
                     <div className="signinWrapper">
                             <h3 className="signinTitle">
-                                Log In
+                                Sign In
                             </h3>
                         <form onSubmit={this.handleSubmit}>
                             <div className="input-field">
