@@ -1,6 +1,6 @@
 FROM node:14.19.1
 WORKDIR /app
-COPY .. 
+COPY . . 
 RUN npm install
 EXPOSE 3000
 CMD ["npm", "start"]
